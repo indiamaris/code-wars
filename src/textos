@@ -1,0 +1,49 @@
+<div className='text-center'>
+
+
+ 
+      <div className='link-challenges'>
+      <Link to={'round-up-five'}>
+  Round up to the next multiple of 5 
+      </Link >
+        </div>
+        <div className='link-challenges'>
+      <Link to={'round-up-five'}>
+  Round up to the next multiple of 5 
+      </Link >
+        </div>
+        <div className='link-challenges'>
+      <Link to={'round-up-five'}>
+  Round up to the next multip 
+      </Link >
+        </div>
+        <div className='link-challenges'>
+      <Link to={'round-up-five'}>
+  Round up to the next multiple of 5 
+      </Link >
+        </div>
+        <div className='link-challenges'>
+      <Link to={'round-up-five'}>
+  Round up to the next mu
+      </Link >
+       </div>
+       <div className='link-challenges'>
+      <Link to={'round-up-five'}>
+  Round up to the next multiple of 5 
+      </Link >
+        </div>
+        <div className='link-challenges'>
+      <Link to={'round-up-five'}>
+  Round up to the next multipl
+      </Link >
+        </div>
+        <div className='link-challenges'>
+      <Link to={'round-up-five'}>
+  Round up to the next multi5 
+      </Link >
+       </div>
+       <br /><br />       <br /><br />
+      <div className='d-flex align-items-end justify-content-end '>
+          <img  className='img-icon'src="src/assets/icon-mind.svg" alt="" />
+          </div>
+      </div>

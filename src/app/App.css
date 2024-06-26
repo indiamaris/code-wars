@@ -1,0 +1,6 @@
+.full{
+text-transform: full-width;
+}
+h1 + p {
+  font-weight: bold;
+}

@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
+
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 00rem;
+    height: 100vh;
+  margin: 0;
+  padding: 0;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  a {
+  text-decoration: none;
+}
+}
+
+Link{text-decoration:none}
+
+.container-fluid{
+    height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: #1a1a1a;
+
+}
+
+
+.side-panel {
+  margin-bottom: 10vh;
+  p {
+   
+    padding: 0;
+    margin: 0;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+  }
+
+
+  p:nth-of-type(1) {
+  background-image: linear-gradient(135deg, #9e7aff 0%, #fe8bbb 33.33%, #ffbd7a 66.67%, #f8eac3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 6vw;
+  line-height: 6vw;
+  font-family: Onest, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif;
+}
+
+}
+.text-color-highligth{  background-image: linear-gradient(135deg, #9e7aff 0%, #fe8bbb 33.33%, #ffbd7a 66.67%, #f8eac3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;}
+
+
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit; 
+  margin-top: 30px;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  place-items: center;
+  min-width: 300px;
+  min-height: 100vh;
+
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+.img-icon{
+  width: 50px;
+  height: 50px;
+  padding: 3px;
+  background-color: #fe8bbb;
+  border-radius: 50px;
+  background: linear-gradient(135deg, #9e7aff 0%, #fe8bbb 33.33%, #ffbd7a 66.67%, #f8eac3 100%);
+
+
+}
+
+.card-level{
+  padding: 0;
+  .glow-border {
+  border: 2px solid transparent; /* Start with a transparent border */
+  transition: border-color 0.3s ease-in-out; /* Smooth transition for the border color */
+}
+
+/* Add glow effect on hover */
+.glow-border:hover {
+  border-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white border on hover */
+}
+
+/* Add glow effect on click */
+.glow-border:active {
+  border-color: rgba(255, 255, 255, 0.9); /* More opaque white border on click */
+}
+}
+.card-easy {
+  border-width: 1px;
+  border-style: solid;
+  border-image: linear-gradient(135deg, #03b406, #0628d1,  #b8ce3a) 1;
+  color: rgb(3, 241, 27);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.card-easy:hover {
+  box-shadow: 0 0 10px 5px rgba(4, 236, 159, 0.7);     cursor: pointer; 
+}
+
+.card-medium{
+   border-width: 1px;
+  border-style: solid;
+  border-image: linear-gradient(135deg,#0bdfdf, #f1f103,   #b12fe4) 1;
+  color: rgb(3, 224, 248);
+    transition: box-shadow 0.3s ease-in-out;
+
+}
+.card-medium:hover {
+  box-shadow: 0 0 10px 5px rgb(5, 178, 235);
+    cursor: pointer; 
+}
+
+.card-hard{
+  border-width: 1px;
+  border-style: solid;
+  border-image: linear-gradient(135deg,#ee1a03 , #04aee7,  #e9640b) 1;
+  color: rgb(246, 5, 5);
+    transition: box-shadow 0.3s ease-in-out;
+}
+.card-hard:hover {
+  box-shadow: 0 0 10px 5px rgba(188, 57, 5, 0.7);     cursor: pointer; }
+
+
+@media (max-width: 900px) {
+  .side-panel {
+    margin-bottom: 30vh;
+  p:nth-of-type(1) {
+  font-size: 12vw;
+  line-height: 11vw;
+  
+}
+
+}
+}
