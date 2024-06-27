@@ -4,9 +4,7 @@
 
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 00rem;
-    height: 100vh;
+
   margin: 0;
   padding: 0;
   color-scheme: light dark;
@@ -15,19 +13,33 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
   a {
   text-decoration: none;
-      background-color: black;
+      
 }
 }
 
 Link{text-decoration:none}
 
 .container-fluid{
-    height: 100vh;
+  height: 100vh;
+  margin: 0; 
+  padding: 0;
+  margin: 0;
+  background-color: #000217;
+
+
+       
+  
+}
+
+.container{
+  height: 85vh;
   margin: 0;
   padding: 0;
-  background-color: #1a1a1a;
+  margin-left: 50px;
+
 }
 
 
@@ -68,13 +80,6 @@ a:hover {
   color: #535bf2;
 }
 
-body {
-  margin: 0;
-  place-items: center;
-  min-width: 300px;
-  min-height: 100vh;
-
-}
 
 h1 {
   font-size: 3.2em;
@@ -84,7 +89,7 @@ h1 {
 button {
   border-radius: 8px;
   border: 1px solid transparent;
-  padding: 0.6em 1.2em;
+  /* padding: 0.6em 1.2em; */
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
@@ -116,21 +121,36 @@ button:focus-visible {
 }
 
 .img-icon{
-  width: 70px;
-  height: 70px;
-  /* padding: 3px; */
-  /* background-color: #f2fe8bc1; */
-  border-radius: 50px;
-/* background-color: linear-gradient(135deg, #9e7aff 0%, #fe8bbb 33.33%, #ffbd7a 66.67%, #f8eac3 100%); */
-
+  width: 80px;
+  height: 80px;
+ 
+}
+.img-container{
+/* background: linear-gradient(135deg, #9e7aff 0%, #fe8bbb 33.33%, #ffbd7a 66.67%, #f8eac3 100%); */
+display: flex;
+/* align-content: center; */
+justify-content: center;
+justify-items: center;
+align-items: center;
+border: 5px ridge rgba(181, 3, 241, 0.6);
+width: 110px;
+height: 110px;
+border-radius: 50%;
+padding: 40px;
+background: linear-gradient(135deg, #9e7aff 0%, #fe8bbb 33.33%, #ffbd7a 66.67%, #f8eac3 100%);
 
 }
 
+.card-home{
+   background-color: #0000039f
+   
+}
 .card-level{
+   
   padding: 0;
   .glow-border {
-  border: 2px solid transparent; /* Start with a transparent border */
-  transition: border-color 0.3s ease-in-out; /* Smooth transition for the border color */
+  border: 2px solid transparent; 
+  transition: border-color 0.3s ease-in-out; 
 }
 
 /* Add glow effect on hover */
@@ -177,6 +197,19 @@ button:focus-visible {
 }
 .card-hard:hover {
   box-shadow: 0 0 10px 5px rgba(188, 57, 5, 0.7);     cursor: pointer; }
+  
+.spinOnHover:hover {
+  animation: spin 1s;
+}
+
+@keyframes spin {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
 
 
 @media (max-width: 900px) {
@@ -188,5 +221,17 @@ button:focus-visible {
   
 }
 
+}
+
+.img-icon{
+  width: 50px;
+  height: 50px;
+ 
+}
+.img-container{
+border: 2px ;
+width: 65px;
+height: 65px;
+padding: 25px;
 }
 }
