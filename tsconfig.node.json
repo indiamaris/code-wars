@@ -1,9 +1,10 @@
 {
   "compilerOptions": {
+    "allowJs":true,
     "composite": true,
     "skipLibCheck": true,
     "module": "ESNext",
-    "moduleResolution": "bundler",
+    "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
     "strict": true
   },
